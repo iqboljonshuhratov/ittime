@@ -1,0 +1,66 @@
+@import "tailwindcss";
+/* @import "./styles/hover-min.css"; */
+/* @import "~hover.css/css/hover-min.css"; */
+
+.container1 {
+  max-width: 1400px;
+  /* height: 100vh; */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* .content { */
+.content {
+  position: fixed;
+  inset: 0;
+  z-index: -10;
+  background: url("https://www.wtlogistic.uz/assets/bg-hero-DBtvFGWE.jpg")
+    no-repeat center center;
+  background-size: cover;
+}
+
+.clip-path-my-skew-reverse {
+  clip-path: polygon(0 0, 100% 100%, 100% 100%, 0% 100%);
+}
+
+.swiper-pagination {
+  bottom: -40px !important;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .swiper-pagination {
+    bottom: -50px !important;
+  }
+}
+
+@media (min-width: 1280px) {
+  .swiper-pagination {
+    bottom: -60px !important;
+  }
+}
+
+.swiper-pagination-bullet {
+  background-color: #2563eb; /* Tailwind blue-600 */
+  opacity: 1;
+}
+.swiper-pagination-bullet-active {
+  background-color: #1e40af; /* Tailwind blue-800 */
+}
+
+.swiper-pagination-bullet {
+  background-color: #2563eb !important; /* blue-600 */
+  opacity: 1;
+}
+
+#contactForm {
+  position: relative;
+  background-image: url("https://www.wtlogistic.uz/assets/contact-bg-C_5P166-.jpg");
+  background-size: cover;
+  background-position: center;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
