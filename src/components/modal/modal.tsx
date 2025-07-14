@@ -1,4 +1,8 @@
-export default function Modal({ onClose }) {
+type ModalProps = {
+  onClose: () => void;
+};
+
+export default function Modal({ onClose }: ModalProps) {
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/60">
       <div className="bg-gray-900 p-8 rounded-3xl shadow-2xl w-full max-w-lg mx-4 relative">
