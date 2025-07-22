@@ -1,22 +1,26 @@
 export const arr = [
   {
     title: "Asosiy",
-    link: "#",
-  },
-  {
-    title: "Xizmatlar",
-    link: "#",
+    link: "#home",
   },
   {
     title: "Biz haqimizda",
-    link: "#",
+    link: "#about",
   },
   {
-    title: "Yangiliklar",
-    link: "#",
+    title: "Xizmatlar",
+    link: "#services",
+  },
+  {
+    title: "Tashishlar",
+    link: "#tariffs",
+  },
+  {
+    title: "Afzalliklar",
+    link: "#skills",
   },
   {
     title: "Aloqa",
-    link: "#",
+    link: "#contact",
   },
 ];

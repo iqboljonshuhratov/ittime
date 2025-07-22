@@ -12,7 +12,7 @@ export default function Page() {
   };
 
   return (
-    <div className="bg-gray-50 w-full pb-10   ">
+    <div id="tariffs" className="bg-gray-50 w-full pb-10   ">
       <div className="text-3xl md:text-5xl pt-16  gap-2 flex md:flex-row flex-col justify-center px-5 md:px-[100px]">
         {" "}
         <span className="font-bold text-center text-blue-500">
